@@ -5,3 +5,9 @@ class User(Model):
 
     id = IntegerField(primary_key=True)
     name = StringField()
+
+#user = User(id=123, name='Michael')
+#user.insert()
+#users = User.findAll()
+#print(user['id'])
+#print(user.id)
